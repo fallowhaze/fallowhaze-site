@@ -3,6 +3,8 @@
 
 <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Fallow Haze</title>
 
     <link rel="icon" type="image/x-icon" href="images/favicon.ico">
@@ -11,7 +13,7 @@
     <style>
         body {
             margin: 0;
-            height: 100vh;
+            min-height: 100vh;
             background-image: url("images/Logo-Background.png");
             background-repeat: repeat;
             display: flex;
@@ -22,11 +24,28 @@
             color: #ffffff;
             font-family: "Montserrat", "Helvetica Neue", sans-serif;
             text-shadow: 0 0 12px rgba(0, 0, 0, 0.75);
+            padding: 40px 20px;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 0;
+            max-width: 1200px;
+            width: 100%;
+            height: 100%;
+            justify-content: flex-start;
+            padding-top: 0;
         }
 
         .logo {
-            width: 600px;
-            margin-bottom: 20px;
+            width: 400px;
+            max-width: 100%;
+            display: block;
+            width: 18vw;
+            margin-bottom: -15px;
+            margin-top: -40px;
         }
 
         .tagline {
@@ -34,22 +53,165 @@
             font-weight: 500;
             letter-spacing: 2px;
             max-width: 800px;
-            margin-top: 10px;
             padding: 12px 24px;
             background: rgba(0, 0, 0, 0.35);
             border-radius: 8px;
             backdrop-filter: blur(4px);
             text-shadow: 0 0 14px rgba(0, 0, 0, 0.9);
+            display: none;
+        }
+
+        .video-section {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 15px;
+            width: 100%;
+        }
+
+        .video-label {
+            display: block;
+            height: auto;
+            max-width: 750px;
+        }
+
+        .video-label img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .video-container {
+            position: relative;
+            width: 90%;
+            max-width: 700px;
+            aspect-ratio: 16 / 9;
+            background: rgba(0, 0, 0, 0.5);
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow:
+                0 10px 40px rgba(0, 0, 0, 0.6),
+                inset 0 0 20px rgba(0, 0, 0, 0.3);
+            border: 3px solid rgba(255, 255, 255, 0.1);
+            cursor: pointer;
+        }
+
+        .video-container::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-image: url('https://img.youtube.com/vi/caXjtt65Kpo/maxresdefault.jpg');
+            background-size: cover;
+            background-position: center;
+            z-index: 1;
+        }
+
+        .video-container::after {
+            content: '▶';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 4rem;
+            color: #ffffff;
+            text-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+            z-index: 2;
+        }
+
+        .video-container a {
+            display: block;
+            width: 100%;
+            height: 100%;
+            position: relative;
+            z-index: 3;
+        }
+
+        .video-footer {
+            display: block;
+            height: auto;
+            max-width: 750px;
+        }
+
+        .video-footer img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .video-container iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+
+        .video-description {
+            font-size: 0.95rem;
+            font-weight: 300;
+            letter-spacing: 1px;
+            max-width: 700px;
+            padding: 16px 24px;
+            background: rgba(0, 0, 0, 0.35);
+            border-radius: 8px;
+            backdrop-filter: blur(4px);
+            text-shadow: 0 0 14px rgba(0, 0, 0, 0.9);
+            display: none;
+        }
+
+        @media (max-width: 768px) {
+            .logo {
+                width: 280px;
+                margin-bottom: -30px;
+                margin-top: 0;
+            }
+
+            .video-label {
+                max-width: none;
+            }
+
+            .video-footer {
+                max-width: none;
+            }
+
+            .video-container {
+                max-width: 100%;
+            }
+
+            body {
+                padding: 20px 10px;
+                justify-content: flex-start;
+                padding-top: 20px;
+            }
+
+            .container {
+                gap: 30px;
+                justify-content: flex-start;
+                padding-top: 20px;
+            }
         }
     </style>
 </head>
 
 <body>
 
-    <img src="images/Logo-Transparent.png" class="logo" alt="Fallow Haze Logo">
+    <div class="container">
+        <img src="images/Logo-Transparent.png" class="logo" alt="Fallow Haze Logo">
 
-    <div class="tagline">
-        New music from Fallow Haze — coming soon!
+        <div class="video-section">
+            <div class="video-label">
+                <img src="images/Text-Header.png" alt="Check out our home studio session video of Light Up The Room">
+            </div>
+
+            <div class="video-container">
+                <a href="https://www.youtube.com/watch?v=caXjtt65Kpo" target="_blank" rel="noopener noreferrer"></a>
+            </div>
+
+            <div class="video-footer">
+                <img src="images/Text-Footer.png" alt="Fallow Haze">
+            </div>
+        </div>
     </div>
 
 </body>
