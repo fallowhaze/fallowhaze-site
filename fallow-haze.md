@@ -10,7 +10,7 @@
 
 ### Musical Style & Sound
 
-- **Genre:** Guitar-based pop / rock, Indie Rock.
+- **Genre:** British indie vintage rock music project
 - **Sonic Characteristics:** Driven by catchy melodies, gritty and driving guitars, melodic basslines, and authentic, real-instrument arrangements.
 - **Influences:** The Rolling Stones, The Beatles, The Who, Tom Petty, Fastball.
 - **Ethos:** Combining a classic, raw rock edge with tight, memorable pop hooks. Total DIY production with high sonic standards.
