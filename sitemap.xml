@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+  <url>
+    <loc>https://fallowhaze.com/</loc>
+    <lastmod>2026-06-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Video entries for better search visibility -->
+  <url>
+    <loc>https://www.youtube.com/watch?v=oiB63bqSfNU</loc>
+    <lastmod>2026-06-02</lastmod>
+    <video:video>
+      <video:title>Chasing The Sun</video:title>
+      <video:description>Fallow Haze - Chasing The Sun (Home Studio Session)</video:description>
+      <video:thumbnail_loc>https://img.youtube.com/vi/oiB63bqSfNU/maxresdefault.jpg</video:thumbnail_loc>
+      <video:player_loc>https://www.youtube.com/embed/oiB63bqSfNU</video:player_loc>
+    </video:video>
+  </url>
+
+  <url>
+    <loc>https://www.youtube.com/watch?v=L8pEbMJ3KCo</loc>
+    <lastmod>2026-06-02</lastmod>
+    <video:video>
+      <video:title>Yesterday's Flowers</video:title>
+      <video:description>Fallow Haze - Yesterday's Flowers (Home Studio Session)</video:description>
+      <video:thumbnail_loc>https://img.youtube.com/vi/L8pEbMJ3KCo/maxresdefault.jpg</video:thumbnail_loc>
+      <video:player_loc>https://www.youtube.com/embed/L8pEbMJ3KCo</video:player_loc>
+    </video:video>
+  </url>
+
+  <url>
+    <loc>https://www.youtube.com/watch?v=hq5bslWGqIg</loc>
+    <lastmod>2026-06-02</lastmod>
+    <video:video>
+      <video:title>Alibi</video:title>
+      <video:description>Fallow Haze - Alibi (Home Studio Session)</video:description>
+      <video:thumbnail_loc>https://img.youtube.com/vi/hq5bslWGqIg/maxresdefault.jpg</video:thumbnail_loc>
+      <video:player_loc>https://www.youtube.com/embed/hq5bslWGqIg</video:player_loc>
+    </video:video>
+  </url>
+
+  <url>
+    <loc>https://www.youtube.com/watch?v=MrG1m2Q90L8</loc>
+    <lastmod>2026-06-02</lastmod>
+    <video:video>
+      <video:title>That's All</video:title>
+      <video:description>Fallow Haze - That's All (Home Studio Session)</video:description>
+      <video:thumbnail_loc>https://img.youtube.com/vi/MrG1m2Q90L8/maxresdefault.jpg</video:thumbnail_loc>
+      <video:player_loc>https://www.youtube.com/embed/MrG1m2Q90L8</video:player_loc>
+    </video:video>
+  </url>
+
+  <url>
+    <loc>https://www.youtube.com/watch?v=caXjtt65Kpo</loc>
+    <lastmod>2026-06-02</lastmod>
+    <video:video>
+      <video:title>Light Up The Room</video:title>
+      <video:description>Fallow Haze - Light Up The Room (Home Studio Session)</video:description>
+      <video:thumbnail_loc>https://img.youtube.com/vi/caXjtt65Kpo/maxresdefault.jpg</video:thumbnail_loc>
+      <video:player_loc>https://www.youtube.com/embed/caXjtt65Kpo</video:player_loc>
+    </video:video>
+  </url>
+</urlset>

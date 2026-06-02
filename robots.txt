@@ -1,0 +1,29 @@
+# Robots.txt for Fallow Haze
+# Allow all search engines and AI crawlers to index the site
+
+User-agent: *
+Allow: /
+Disallow: 
+
+# Specific rules for search engines
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+# AI/LLM crawlers
+User-agent: GPTBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+# Point to sitemap
+Sitemap: https://fallowhaze.com/sitemap.xml
+
+# Crawl delay (optional - allows 1 request per 1 second)
+Crawl-delay: 1

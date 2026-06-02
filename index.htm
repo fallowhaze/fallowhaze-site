@@ -5,7 +5,34 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Fallow Haze</title>
+    <title>Fallow Haze - Home Studio Sessions</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description"
+        content="Fallow Haze - Indie pop rock music artist creating home studio session recordings. Watch music videos including 'Chasing The Sun', 'Yesterday's Flowers', 'Alibi', 'That's All', and 'Light Up The Room'.">
+    <meta name="keywords"
+        content="indie music, home studio, music videos, original songs, Chasing The Sun, Yesterday's Flowers, Alibi, That's All, Light Up The Room">
+    <meta name="author" content="Fallow Haze">
+    <meta name="theme-color" content="#953408">
+
+    <!-- Open Graph Tags -->
+    <meta property="og:type" content="music.musician">
+    <meta property="og:title" content="Fallow Haze - Home Studio Sessions">
+    <meta property="og:description"
+        content="Indie pop rock music artist creating home studio session recordings. Watch original music videos.">
+    <meta property="og:url" content="https://fallowhaze.com">
+    <meta property="og:image" content="https://fallowhaze.com/images/Logo-Transparent.png">
+    <meta property="og:site_name" content="Fallow Haze">
+
+    <!-- Twitter Card Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Fallow Haze - Home Studio Sessions">
+    <meta name="twitter:description"
+        content="Indie pop rock music artist creating home studio session recordings. Watch original music videos.">
+    <meta name="twitter:image" content="https://fallowhaze.com/images/Logo-Transparent.png">
+
+    <!-- Canonical URL -->
+    <meta property="canonical" content="https://fallowhaze.com">
 
     <link rel="icon" type="image/x-icon" href="images/favicon.ico">
     <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Anton&display=swap"
@@ -256,12 +283,62 @@
             }
         }
     </style>
+
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "MusicGroup",
+      "name": "Fallow Haze",
+      "description": "Indie music artist featuring home studio sessions with original music videos",
+      "url": "https://fallowhaze.com",
+      "image": "https://fallowhaze.com/images/Logo-Transparent.png",
+      "sameAs": [
+        "https://www.youtube.com/@FallowHaze",
+        "https://www.instagram.com/fallowhaze/",
+        "https://www.tiktok.com/@fallowhaze"
+      ],
+      "album": [
+        {
+          "@type": "MusicAlbum",
+          "name": "Home Studio Sessions",
+          "track": [
+            {
+              "@type": "MusicRecording",
+              "name": "Chasing The Sun",
+              "url": "https://www.youtube.com/watch?v=oiB63bqSfNU"
+            },
+            {
+              "@type": "MusicRecording",
+              "name": "Yesterday's Flowers",
+              "url": "https://www.youtube.com/watch?v=L8pEbMJ3KCo"
+            },
+            {
+              "@type": "MusicRecording",
+              "name": "Alibi",
+              "url": "https://www.youtube.com/watch?v=hq5bslWGqIg"
+            },
+            {
+              "@type": "MusicRecording",
+              "name": "That's All",
+              "url": "https://www.youtube.com/watch?v=MrG1m2Q90L8"
+            },
+            {
+              "@type": "MusicRecording",
+              "name": "Light Up The Room",
+              "url": "https://www.youtube.com/watch?v=caXjtt65Kpo"
+            }
+          ]
+        }
+      ]
+    }
+    </script>
 </head>
 
 <body>
     <div class="container">
         <div class="header">
-            <img src="images/Logo-Transparent.png" class="logo" alt="Fallow Haze Logo">
+            <img src="images/Logo-Transparent.png" class="logo" alt="Fallow Haze - Home Studio Music Sessions Logo">
             <div class="title">FALLOW HAZE</div>
             <div class="subtitle">Home Studio Sessions</div>
         </div>
@@ -269,35 +346,35 @@
         <div class="videos-grid">
             <div class="video-card">
                 <div class="video-title">Chasing The Sun</div>
-                <div class="video-container video-5">
+                <div class="video-container video-5" role="img" aria-label="Chasing The Sun music video thumbnail">
                     <a href="https://www.youtube.com/watch?v=oiB63bqSfNU" target="_blank" rel="noopener noreferrer"></a>
                 </div>
             </div>
 
             <div class="video-card">
                 <div class="video-title">Yesterday's Flowers</div>
-                <div class="video-container video-4">
+                <div class="video-container video-4" role="img" aria-label="Yesterday's Flowers music video thumbnail">
                     <a href="https://www.youtube.com/watch?v=L8pEbMJ3KCo" target="_blank" rel="noopener noreferrer"></a>
                 </div>
             </div>
 
             <div class="video-card">
                 <div class="video-title">Alibi</div>
-                <div class="video-container video-3">
+                <div class="video-container video-3" role="img" aria-label="Alibi music video thumbnail">
                     <a href="https://www.youtube.com/watch?v=hq5bslWGqIg" target="_blank" rel="noopener noreferrer"></a>
                 </div>
             </div>
 
             <div class="video-card">
                 <div class="video-title">That's All</div>
-                <div class="video-container video-2">
+                <div class="video-container video-2" role="img" aria-label="That's All music video thumbnail">
                     <a href="https://www.youtube.com/watch?v=MrG1m2Q90L8" target="_blank" rel="noopener noreferrer"></a>
                 </div>
             </div>
 
             <div class="video-card">
                 <div class="video-title">Light Up The Room</div>
-                <div class="video-container video-1">
+                <div class="video-container video-1" role="img" aria-label="Light Up The Room music video thumbnail">
                     <a href="https://www.youtube.com/watch?v=caXjtt65Kpo" target="_blank" rel="noopener noreferrer"></a>
                 </div>
             </div>
