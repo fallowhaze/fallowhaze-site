@@ -5,8 +5,8 @@
 - **Name:** Fallow Haze
 - **Type:** Independent, home-studio-based recording project (not a live touring band).
 - **Members & Roles:**
-  - Nathan: Guitars, drums, vocals, mixing/production.
-  - Jules: Bass, vocals.
+  - Nathan: Guitars, drums, vocals, mixing / production.
+  - Jules: Bass, vocals, percussion, production.
 
 ### Musical Style & Sound
 
