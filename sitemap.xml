@@ -10,6 +10,28 @@
 
   <!-- Video entries for better search visibility -->
   <url>
+    <loc>https://www.youtube.com/watch?v=2Oqr6qJM35o</loc>
+    <lastmod>2026-08-18</lastmod>
+    <video:video>
+      <video:title>Innocent Man</video:title>
+      <video:description>Fallow Haze - Innocent Man (Home Studio Session)</video:description>
+      <video:thumbnail_loc>https://img.youtube.com/vi/2Oqr6qJM35o/maxresdefault.jpg</video:thumbnail_loc>
+      <video:player_loc>https://www.youtube.com/embed/2Oqr6qJM35o</video:player_loc>
+    </video:video>
+  </url>
+
+  <url>
+    <loc>https://www.youtube.com/watch?v=p9D_ARYulw4</loc>
+    <lastmod>2026-08-18</lastmod>
+    <video:video>
+      <video:title>June</video:title>
+      <video:description>Fallow Haze - June (Home Studio Session)</video:description>
+      <video:thumbnail_loc>https://img.youtube.com/vi/p9D_ARYulw4/maxresdefault.jpg</video:thumbnail_loc>
+      <video:player_loc>https://www.youtube.com/embed/p9D_ARYulw4</video:player_loc>
+    </video:video>
+  </url>
+
+  <url>
     <loc>https://www.youtube.com/watch?v=oiB63bqSfNU</loc>
     <lastmod>2026-06-02</lastmod>
     <video:video>
